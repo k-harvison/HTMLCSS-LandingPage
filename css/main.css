@@ -68,6 +68,8 @@ section {display: flex;}
     height:30px;
     padding-top:6px;
     padding-bottom:6px;
+    padding-left: 12px;
+    padding-right: 12px;
     border:1px;
     border-color: #a0a0a0;
 }
