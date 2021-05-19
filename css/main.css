@@ -75,7 +75,13 @@ section {display: flex;}
     padding: 0px;
     width: 575px;
     margin-top: 10px;
-    font:16px uppercase 700 .2px;
+}
+.nav-list li a {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .2px;
+
 }
 
 .profile {
@@ -85,7 +91,12 @@ section {display: flex;}
 .account {
     text-align: right;
     padding: 15px;
-    font: #364147 18px;
+    color: #364147;
+    font-size: 18px;
+}
+
+.account a {
+    font-size: 14px;
 }
 
 .profile-pic{width: 60px; height:60px; }
