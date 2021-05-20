@@ -9,6 +9,8 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
 
 /*****************************************/
 
+/*****************************************/
+
 .container { margin: 0 auto; max-width: 1170px; }
 section { display: flex; }
 
@@ -145,6 +147,7 @@ section { display: flex; }
     font-weight: 700;
     line-height: 1;
 }
+
 .full-banner {
     padding: 0 15px;
     margin: 50px 0px;
@@ -191,16 +194,8 @@ section { display: flex; }
     margin: 20px auto;
     display: block;
 }
-.full-banner-sidebar > div:nth-of-type(1) { 
-    font-size: 60px; 
-    font-weight: 700; 
-    line-height: 1; 
-}
-.full-banner-sidebar > div:nth-of-type(2) { 
-    font-size: 25px; 
-    font-weight: 200; 
-    letter-spacing: 3px; 
-}
+.full-banner-sidebar > div:nth-of-type(1) { font-size: 60px; font-weight: 700; line-height: 1; }
+.full-banner-sidebar > div:nth-of-type(2) { font-size: 25px; font-weight: 200; letter-spacing: 3px; }
 .full-banner-sidebar .btn.btn-default {
     margin-top: 50px;
     text-transform: uppercase;
